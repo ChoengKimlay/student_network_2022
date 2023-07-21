@@ -1,0 +1,136 @@
+body{
+    background-color: #DADADA;
+    max-width: 390px;
+    margin: auto;
+}
+.TopBar{
+    background-color: #47A3F9;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.TopBar img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.TopBar img:nth-child(5){
+    width: 20px;
+    opacity: 50%;
+}
+.TopBar textarea{
+    padding: 5px 15px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.SearchIcon{
+    position: absolute;
+    right: 41%;
+    top: 5%;
+}
+.StoryContainer{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Story{
+    background-color: #DADADA;
+    height: 130px;
+    width: 70px;
+    border-radius: 15px;
+}
+.Upload{
+    background-color: white;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Upload img{
+    width: 25px;
+}
+.Upload textarea{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    background-color: #DADADA;
+}
+.PostContainer{
+    background-color: white;
+    margin-top: 10px;
+}
+.PostContainer img{
+    width: 390px;
+}
+.PostTopBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PostTopBar img{
+    width: 25px;
+    margin: 5px;
+}
+.Profile{
+    display: flex;
+    align-items: center;
+}
+.Profile img{
+    padding: 5px;
+}
+.Profile p{
+    font-size: 10px;
+    padding-left: 5px;
+    color: rgb(173, 173, 173);
+}
+.Profile span{
+    font-size: 10px;
+    color: black
+}
+.More{
+    padding: 10px;
+}
+.PostText{
+    font-size: 16px;
+    margin: 5px 10px;
+}
+.Divider{
+    height: 1px;
+    width: 370px;
+    background-color: #DADADA;
+    margin: 10px auto;
+}
+.PostBotBar{
+    width: 350px;
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PostBotBar img{
+    width: 25px;
+    margin-right: 10px;
+}
+.Like{
+    display: flex;
+    align-items: center;
+}
+.Comment{
+    display: flex;
+    align-items: center;
+}
+.Share{
+    display: flex;
+    align-items: center;
+}

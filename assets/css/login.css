@@ -1,0 +1,75 @@
+body{
+    background-color: #DADADA;
+    max-width: 390px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.MainAccBtn{
+    background-color: #47A3F9;
+    margin: 150px auto 0 auto;
+    max-width: 80%;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.MainAccBtn img{
+    width: 25px;
+    margin-right: 10px;
+}
+.BackUpAccBtn{
+    background-color: #47A3F9;
+    margin: 30px auto 0 auto;
+    max-width: 80%;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.BackUpAccBtn img{
+    width: 25px;
+    margin-right: 10px;
+}
+.AddAccBtn{
+    background-color: white;
+    color: black;
+    margin: 30px auto 0 auto;
+    max-width: 80%;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.AddAccBtn img{
+    width: 25px;
+    margin-right: 10px;
+}
+.LoginBtn{
+    background-color: white;
+    margin: 50px auto 0 auto;
+    max-width: 20%;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+}
+.DeleteBtn{
+    background-color: #FF0000;
+    max-width: 30%;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,111 @@
+body{
+    background-color: #DADADA;
+    max-width: 390px;
+    margin: auto;
+}
+.Container{
+    background-color: white;
+}
+.TopBar{
+    background-color: #47A3F9;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.TopBar img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.TopBar img:nth-child(5){
+    width: 20px;
+    opacity: 50%;
+}
+.TopBar textarea{
+    padding: 5px 15px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.SearchIcon{
+    position: absolute;
+    right: 41%;
+    top: 5%;
+}
+.Friends img{
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.Title{
+    margin: 20px 0px 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Number{
+    margin-left: 20px;
+    color: rgb(173, 173, 173);
+}
+.Row1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Row2{
+    display: flex;
+    justify-content: center;
+}
+.Cover{
+    padding: 10px;
+}
+.SeeAll{
+    background-color: #A7D4FF;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Divider{
+    background-color: #DADADA;
+    height: 10px;
+}
+.Red{
+    color: red;
+}
+.Requester{
+    display: flex;
+    align-items: center;
+}
+.Requester img{
+    width: 75px;
+    padding: 10px;
+}
+.Option{
+    display: flex;
+}
+.Name{
+    margin: 10px;
+}
+.Confirm{
+    background-color: #47A3F9;
+    border-radius: 5px;
+    width: 125px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.Delete{
+    background-color: #DADADA;
+    width: 125px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+}

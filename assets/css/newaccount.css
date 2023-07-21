@@ -1,0 +1,163 @@
+body{
+    background-color: #DADADA;
+    max-width: 390px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+textarea::placeholder {
+    text-align: center;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #47A3F9;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.BackBtn img{
+    width: 25px;
+    margin: 10px 0 0 10px;
+}
+.Username{
+    margin-top: 60px;
+}
+.UsernameTxt {
+    margin-left: 5%;
+}
+.UsernameInput{
+    display: flex;
+    justify-content: space-around;
+}
+.UsernameInput textarea{
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.DOB{
+    margin-top: 20px;
+}
+.DOBTxt{
+    margin-left: 5%;
+}
+.DOBInput{
+    display: flex;
+    justify-content: space-around;
+}
+.DOBInput select{
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.Gender{
+    margin-top: 20px;
+}
+.GenderTxt{
+    margin-left: 5%;
+}
+.GenderInput{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.Number{
+    margin-top: 20px;
+}
+.NumberTxt{
+    margin-left: 5%;
+}
+.NumberInput{
+    display: flex;
+    justify-content: center;
+}
+.Number textarea{
+    padding: 10px 50px;    
+    margin-top: 5px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.Email{
+    margin-top: 20px;
+}
+.EmailTxt{
+    margin-left: 5%;
+}
+.EmailInput{
+    display: flex;
+    justify-content: center;
+}
+.Email textarea{
+    padding: 10px 50px;    
+    margin-top: 5px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.Password{
+    margin-top: 20px;
+}
+.PasswordTxt{
+    margin-left: 5%;
+}
+.PasswordInput{
+    display: flex;
+    justify-content: center;
+}
+.Password textarea{
+    padding: 10px 50px;    
+    margin-top: 5px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.CreateBtn{
+    background-color: #47A3F9;
+    max-width: 30%;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+.CreateBtn a{
+    color: white;
+}

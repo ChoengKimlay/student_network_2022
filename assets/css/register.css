@@ -1,0 +1,70 @@
+body{
+    background-color: #DADADA;
+    max-width: 390px;
+    margin: auto;
+}
+textarea::placeholder {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.BackBtn img{
+    width: 25px;
+    margin: 10px 0 0 10px;
+}
+.BackBtna a{
+    color: black;
+}
+.PhoneNumber{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.PhoneNumber textarea{
+    padding: 10px 15px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.Password{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Password textarea{
+    padding: 10px 15px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.LoginBtn{
+    background-color: white;
+    color: black;
+    margin: 100px auto 0 auto;
+    max-width: 20%;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+}
+.CreateBtn{
+    background-color: #47A3F9;
+    max-width: 30%;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+.CreateBtn a{
+    color: white;
+}

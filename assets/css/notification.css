@@ -1,0 +1,58 @@
+body{
+    background-color: #DADADA;
+    max-width: 390px;
+    margin: auto;
+}
+.Container{
+    background-color: white;
+}
+.TopBar{
+    background-color: #47A3F9;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.TopBar img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.TopBar img:nth-child(5){
+    width: 20px;
+    opacity: 50%;
+}
+.TopBar textarea{
+    padding: 5px 15px;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.SearchIcon{
+    position: absolute;
+    right: 41%;
+    top: 5%;
+}
+.Notification{
+    margin-bottom: 10px;
+}
+.Title{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Date{
+    margin-left: 20px;
+}
+.Notif{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Notif img{
+    margin: 0px 20px 0px 10px;
+    width: 25px;
+}

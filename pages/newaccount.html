@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Account</title>
+    <link rel="stylesheet" href="/assets/css/newaccount.css">
+</head>
+  <body>
+    <div class="container">
+
+      <div class="BackBtn">
+        <a href="./register.html">
+          <img src="/assets/images/arrow.png" alt="BackArrow">
+        </a>
+      </div>
+
+      <div class="Username">
+        <span class="UsernameTxt">Username</span>
+        <div class="UsernameInput">
+          <textarea name="FirstName" id="FirstName" cols="15" rows="1" placeholder="First Name"></textarea>
+          <textarea name="Surname" id="Surname" cols="15" rows="1" placeholder="Surname"></textarea>
+        </div>
+      </div>
+
+      <div class="DOB">
+        <span class="DOBTxt">Date of Birth</span>
+        <div class="DOBInput">
+          <!-- Day -->
+          <select id="day" name="day" title="day">
+            <option value="">Day</option>
+          </select>
+          <!-- Month -->
+          <select id="month" name="month" title="month">
+            <option value="">Month</option>
+          </select>
+          <!-- Year -->
+          <select id="year" name="year" title="year">
+            <option value="">Year</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="Gender">
+        <span class="GenderTxt">Gender</span>
+        <div class="GenderInput">
+
+            <div class="Male">
+              <!-- Male -->
+              <input type="radio" name="Gender" id="Male">
+              <label for="Male">Male</label>
+            </div>
+
+            <div class="Female">
+              <!-- Female -->
+              <input type="radio" name="Gender" id="Female" >
+              <label for="Female">Female</label>
+            </div>
+
+            <div class="Other">
+              <!-- Other -->
+              <input type="radio" name="Gender" id="Other" >
+              <label for="Other">Other</label>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="Number">
+        <span class="NumberTxt">Mobile Number</span>
+        <div class="NumberInput">
+          <textarea name="Number" id="Number" cols="30" rows="1" placeholder="Mobile Number"></textarea>
+        </div>
+      </div>
+
+      <div class="Email">
+        <span class="EmailTxt">Email Address</span>
+        <div class="EmailInput">
+          <textarea name="Email" id="Email" cols="30" rows="1" placeholder=" Emial address"></textarea>
+        </div>
+      </div>
+
+      <div class="Password">
+        <span class="PasswordTxt">Password</span>
+        <div class="PasswordInput">
+          <textarea name="Password" id="Password" cols="30" rows="1" placeholder="Password"></textarea>
+        </div>
+      </div>
+
+
+      <a href="./home.html">
+        <div class="CreateBtn">
+          Create Account
+        </div>
+      </a>
+      
+
+    </div>
+
+    <script src="/assets/js/newaccount.js"></script>
+
+  </body>
+</html>
