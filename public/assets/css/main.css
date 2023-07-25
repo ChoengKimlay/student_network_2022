@@ -29,8 +29,8 @@ body{
 }
 .SearchIcon{
     position: absolute;
-    right: 41%;
-    top: 5%;
+    right: 60px;
+    top: 35px;
 }
 .StoryContainer{
     background-color: white;

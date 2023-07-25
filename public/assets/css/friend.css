@@ -32,8 +32,8 @@ body{
 }
 .SearchIcon{
     position: absolute;
-    right: 41%;
-    top: 5%;
+    right: 60px;
+    top: 35px;
 }
 .Friends img{
     width: 50px;
@@ -42,7 +42,7 @@ body{
 }
 .Title{
     margin: 20px 0px 5px 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 .Number{

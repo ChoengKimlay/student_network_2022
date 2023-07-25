@@ -32,15 +32,15 @@ body{
 }
 .SearchIcon{
     position: absolute;
-    right: 41%;
-    top: 5%;
+    right: 60px;
+    top: 35px;
 }
 .Notification{
     margin-bottom: 10px;
 }
 .Title{
-    margin-left: 20px;
-    font-size: 20px;
+    margin: 20px 0px 20px 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 .Date{
